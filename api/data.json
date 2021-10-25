@@ -5,64 +5,164 @@
         "name": "marinated chicken club sandwich",
         "image": "https://natashaskitchen.com/wp-content/uploads/2016/05/Breakfast-Sandwich-6-600x900.jpg",
         "price": 200,
-        "taxPercentage": 5
+        "taxPercentage": 5,
+        "qty": 0
       },
       {
         "id": 2,
         "name": "Ham Sandwich",
         "image": "https://i.pinimg.com/originals/26/55/88/265588dcfd1c419f65031eb186faf294.jpg",
         "price": 300,
-        "taxPercentage": 5
+        "taxPercentage": 5,
+        "qty": 0
       },
       {
         "id": 3,
         "name": "Hummus Sandwich",
         "image": "https://www.acouplecooks.com/wp-content/uploads/2020/10/Hummus-Sandwich-013.jpg",
         "price": 400,
-        "taxPercentage": 5
+        "taxPercentage": 5,
+        "qty": 0
       },
       {
         "id": 4,
         "name": "club Sandwich",
         "image": "https://natashaskitchen.com/wp-content/uploads/2016/05/Breakfast-Sandwich-11-600x900.jpg",
         "price": 500,
-        "taxPercentage": 5
+        "taxPercentage": 5,
+        "qty": 0
       },
       {
         "id": 6,
         "name": "Greek Chicken Sandwich",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSW0eKl7vywD_geIHQWi_vEBM1RdGvx2yYCSIjbVQZuEn7Ppl2ZQ867xJCWjS94wdsmsg&usqp=CAU",
         "price": 600,
-        "taxPercentage": 5
+        "taxPercentage": 5,
+        "qty": 0
       },
       {
         "id": 7,
         "name": "Turkey Sandwich",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXLqn1Z4oNTkNzsFLJz9BHP4IHBEiyLw2fL5WaE9bS9KyaW9-Ki2Xz6UFrvcKItxdegt0&usqp=CAU",
         "price": 700,
-        "taxPercentage": 5
+        "taxPercentage": 5,
+        "qty": 0
       },
       {
         "id": 8,
-        "name": "Homemade Grilled Cheese Sandwich",
+        "name": "Homemade Grilled Sandwich",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsYf7zRsj3mDyr4wScd59tYzTFbzR4rrjvIl2z-fxTMgs9w3lCQ00HMcxhSeAqlK1Ce0Q&usqp=CAU",
         "price": 800,
-        "taxPercentage": 5
+        "taxPercentage": 5,
+        "qty": 0
       },
       {
         "id": 9,
         "name": "Cuban Sandwich",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH3_nj1bSy8BXFxgX8AcZJdIEdV3pQ1vSZzgfkcfmGZwjtd9nsZNICWJ3VxoQX0u6UODM&usqp=CAU",
         "price": 900,
-        "taxPercentage": 5
+        "taxPercentage": 5,
+        "qty": 0
       },
       {
         "id": 10,
         "name": "Ultimate Veggie Sandwich",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGuNYZ5s-NYH57O2Rh8uUbDcVZJ1TZgKW5o50jbllWQzNFxU7tojL4Eg2zPKgemHFZHQ8&usqp=CAU",
         "price": 950,
-        "taxPercentage": 5
+        "taxPercentage": 5,
+        "qty": 0
       }
-    ] 
+    ],
+    "menuGroup": [
+      {
+        "id": 1,
+        "name": "Group 1",
+        "image": "https://www.capetown.travel/wp-content/uploads/2018/12/Slick-Group-Burger-Sliders.jpg",
+        "price": 300,
+        "taxPercentage": 5,
+        "collection": [
+          {
+            "id": 1,
+            "name": "marinated chicken club sandwich",
+            "image": "https://natashaskitchen.com/wp-content/uploads/2016/05/Breakfast-Sandwich-6-600x900.jpg",
+            "price": 200,
+            "taxPercentage": 5,
+            "qty": 0
+          },
+          {
+            "id": 2,
+            "name": "Ham Sandwich",
+            "image": "https://i.pinimg.com/originals/26/55/88/265588dcfd1c419f65031eb186faf294.jpg",
+            "price": 300,
+            "taxPercentage": 5,
+            "qty": 0
+          },
+          {
+            "id": 3,
+            "name": "Hummus Sandwich",
+            "image": "https://www.acouplecooks.com/wp-content/uploads/2020/10/Hummus-Sandwich-013.jpg",
+            "price": 400,
+            "taxPercentage": 5,
+            "qty": 0
+          },
+          {
+            "id": 4,
+            "name": "club Sandwich",
+            "image": "https://natashaskitchen.com/wp-content/uploads/2016/05/Breakfast-Sandwich-11-600x900.jpg",
+            "price": 500,
+            "taxPercentage": 5,
+            "qty": 0
+          },
+          {
+        "id": 6,
+        "name": "Greek Chicken Sandwich",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSW0eKl7vywD_geIHQWi_vEBM1RdGvx2yYCSIjbVQZuEn7Ppl2ZQ867xJCWjS94wdsmsg&usqp=CAU",
+        "price": 600,
+        "taxPercentage": 5,
+        "qty": 0
+      }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Group 2",
+        "image": "https://res.cloudinary.com/culturemap-com/image/upload/ar_4:3,c_fill,g_faces:center,w_980/v1612302873/photos/306967_original.jpg",
+        "price": 500,
+        "taxPercentage": 5,
+        "collection": [
+          {
+            "id": 7,
+            "name": "Turkey Sandwich",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXLqn1Z4oNTkNzsFLJz9BHP4IHBEiyLw2fL5WaE9bS9KyaW9-Ki2Xz6UFrvcKItxdegt0&usqp=CAU",
+            "price": 700,
+            "taxPercentage": 5,
+            "qty": 0
+          },
+          {
+            "id": 8,
+            "name": "Homemade Grilled Sandwich",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsYf7zRsj3mDyr4wScd59tYzTFbzR4rrjvIl2z-fxTMgs9w3lCQ00HMcxhSeAqlK1Ce0Q&usqp=CAU",
+            "price": 800,
+            "taxPercentage": 5,
+            "qty": 0
+          },
+          {
+            "id": 9,
+            "name": "Cuban Sandwich",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH3_nj1bSy8BXFxgX8AcZJdIEdV3pQ1vSZzgfkcfmGZwjtd9nsZNICWJ3VxoQX0u6UODM&usqp=CAU",
+            "price": 900,
+            "taxPercentage": 5,
+            "qty": 0
+          },
+          {
+            "id": 10,
+            "name": "Ultimate Veggie Sandwich",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGuNYZ5s-NYH57O2Rh8uUbDcVZJ1TZgKW5o50jbllWQzNFxU7tojL4Eg2zPKgemHFZHQ8&usqp=CAU",
+            "price": 950,
+            "taxPercentage": 5,
+            "qty": 0
+          }
+        ]
+      }
+    ]
 }
-  
